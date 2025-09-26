@@ -1,0 +1,210 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+  color: #25a2c3;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.35em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+/*intestazione*/
+header {
+  background-color: black; /* colore estratto dall'immagine */
+  color: white;
+  text-align: left;
+  padding: 1em;
+}
+
+/*tutta la pagina*/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/*parte centrale della pagina*/
+main {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/*parte finale della pagina*/
+footer {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.container {
+  margin: 0 auto; /* centra orizzontalmente */
+  text-align: center;
+}
+
+footer h1 {
+  color: white;
+}
+
+/*Inizio primo div*/
+.first-div {
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: black;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 15px;
+}
+
+.first-div h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/*bottone partiamo*/
+.first-div button {
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.first-div p {
+  margin-bottom: 1em;
+}
+/*Fine primo div*/
+
+.second-div {
+  background-color: #e22d0e;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.second-div h2 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.immagine-rotonda {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  float: left;
+  object-fit: cover;
+}
+
+.paragrafo1 {
+  font-style: italic;
+}
+
+.second-div,
+.p1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.galleria {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.foto1,
+.foto2,
+.foto3 {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1%;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+.foto1 img,
+.foto2 img,
+.foto3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(196, 187, 187);
+  box-sizing: border-box;
+}
+
+.foto1 h4,
+.foto2 h4,
+.foto3 h4 {
+  margin: 10px 0 5px;
+  font-size: 1.1em;
+}
+
+.foto1 p,
+.foto2 p,
+.foto3 p {
+  font-size: 0.95em;
+  line-height: 1.4em;
+}
+
+.testimonianze {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.second-div h2 {
+  padding-top: 20px;
+}
+
+.copyright {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.contatti {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#mario {
+  font-size: 20px;
+}
+
+.image-container {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.p1 {
+  overflow: hidden;
+  padding-left: 10px;
+  text-align: center;
+}
