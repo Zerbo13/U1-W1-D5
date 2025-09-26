@@ -1,0 +1,149 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+  color: #25a2c3;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.35em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+/*intestazione*/
+header {
+  background-color: black; /* colore estratto dall'immagine */
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+/*tutta la pagina*/
+body {
+  background-image: url("img/sfondo.png");
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-align: center;
+}
+
+/*parte centrale della pagina*/
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/*parte finale della pagina*/
+footer {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+footer h1 {
+  color: white;
+}
+
+/*Inizio primo div*/
+.first-div {
+  position: relative;
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: black;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 5px;
+}
+
+.first-div h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/*bottone partiamo*/
+.first-div button {
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.first-div p {
+  margin-bottom: 1em;
+}
+/*Fine primo div*/
+
+.second-div {
+  background-color: #e22d0e;
+  color: white;
+}
+
+.second-div h2 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.immagine-rotonda {
+  border-radius: 100%;
+  width: 300px;
+}
+
+.paragrafo1 {
+  font-style: italic;
+}
+
+.second-div .p1,
+.p2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.foto1,
+.foto2,
+.foto3 {
+  border: 1px solid rgb(196, 187, 187);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
